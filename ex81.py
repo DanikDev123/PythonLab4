@@ -11,4 +11,4 @@ while True:
     print("Wind speed must be more than 2 mph")
 
 windchill = 35.74 + 0.6215 * outTemperature - 35.75 * (windspeed ** 0.16) + 0.4275 * outTemperature * (windspeed ** 0.16)
-print("Wind chill temperature = {windchill:.2f}")
+print("Wind chill temperature = ", windchill)
